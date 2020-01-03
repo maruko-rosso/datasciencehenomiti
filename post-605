@@ -1,0 +1,9 @@
+library(dplyr) 
+library(ggplot2) 
+library(tidyr) 
+# データインポート 
+d <- read.csv() # 前項のファイルをDLして利用してください。 
+
+# 縦持ち変換 
+d2 <- d 
+   %>% gather( key = body_type , value = body_type_ratio,やせ,肥満,普通)
