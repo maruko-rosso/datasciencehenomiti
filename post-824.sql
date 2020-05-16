@@ -26,6 +26,9 @@ y varchar
   ) ;
 
 
+  
+
+
 --プライマーキーを設定
 alter table test.bank_marketing_datasets ADD PRIMARY KEY (SNO)
 
